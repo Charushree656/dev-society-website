@@ -91,28 +91,7 @@ export function Nav() {
           </button>
         </nav>
 
-        <div className="hidden items-center gap-3 lg:flex">
-          <span className="inline-flex min-h-10 items-center gap-2 rounded-pill bg-white px-5 text-xs font-semibold text-zinc-600">
-            <Star size={14} className="fill-accent text-accent" />
-            Available for work
-          </span>
-          <a
-            href="https://cal.com/"
-            target="_blank"
-            rel="noreferrer"
-            className="inline-flex min-h-14 items-center gap-3 rounded-pill bg-white px-7 text-sm font-semibold text-ink transition hover:-translate-y-0.5 hover:bg-zinc-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
-          >
-            <CalendarClock size={18} />
-            Book a 30 min call
-          </a>
-          <a
-            href="mailto:uxmushfq@gmail.com"
-            className="grid size-14 place-items-center rounded-pill bg-white text-accent transition hover:-translate-y-0.5 hover:bg-zinc-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
-            aria-label="Email Developer Society"
-          >
-            <Mail size={21} />
-          </a>
-        </div>
+
       </div>
 
       <div
